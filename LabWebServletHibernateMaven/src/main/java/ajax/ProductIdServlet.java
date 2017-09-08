@@ -28,8 +28,8 @@ public class ProductIdServlet extends HttpServlet {
 	public void init() throws ServletException {
 		ApplicationContext context = (ApplicationContext) 
 				WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
-		productService = (ProductService) context.getBean("productService");
-	}
+		productService = (ProductService) context.getBean("productService");}
+
 	@Override
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {

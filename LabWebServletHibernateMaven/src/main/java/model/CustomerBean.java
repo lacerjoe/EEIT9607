@@ -18,9 +18,6 @@ public class CustomerBean {
 	private byte[] password;
 	private String email;
 	private java.util.Date birth;
-	
-	
-	
 	public static void main(String[] args) throws Exception {
 		ApplicationContext context =
 				new ClassPathXmlApplicationContext("beans.config.xml");
