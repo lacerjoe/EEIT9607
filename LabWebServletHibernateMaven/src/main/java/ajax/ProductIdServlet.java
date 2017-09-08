@@ -30,6 +30,7 @@ public class ProductIdServlet extends HttpServlet {
 				WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
 		productService = (ProductService) context.getBean("productService");
 		
+		
 	}
 	@Override
 	protected void doGet(HttpServletRequest request,
