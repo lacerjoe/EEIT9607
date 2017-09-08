@@ -37,6 +37,8 @@ public class LoginController {
 			return "login.error";
 		}
 		
+		
+		
 //呼叫model
 		CustomerBean bean = customerService.login(username, password);
 		
